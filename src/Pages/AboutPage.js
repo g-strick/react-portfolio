@@ -1,9 +1,10 @@
 import React from "react";
+import Title from "../Components/Title";
 
 const ContactsPage = () => {
   return (
     <div>
-      <h1>About Page</h1>
+      <Title title={"About Me"} span={"About Me"} />
     </div>
   );
 };
