@@ -4,16 +4,17 @@
     background-color: #191d2b;
     border-left: 1px solid #2e344e;
     border-right: 1px solid #2e344e;
-    border-top: 8px solid #2e344e;
     border-bottom: 1px solid #2e344e;
-    transition: all 0.4s;
+    border-top: 8px solid #2e344e;
+    transition: all 0.4s ease-in-out;
     @media screen and (max-width: 1400px) {
       width: 100%;
       margin-bottom: 1rem;
     }
     &:hover {
-      border-top: 8px solid#037FFF;
+      border-top: 8px solid #037fff;
     }
+
     .service-content {
       padding: 1rem;
       .s-title {
@@ -28,7 +29,7 @@
           bottom: 0;
           left: 0;
           width: 30%;
-          height: 0.4rem;
+          height: 1px;
           background-color: #2e344e;
         }
       }
@@ -36,7 +37,7 @@
   }
 }
 
-.servives-container {
+.services-container {
   display: flex;
   justify-content: space-between;
   margin-top: 4rem;
