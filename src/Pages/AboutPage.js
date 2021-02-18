@@ -22,8 +22,8 @@ const AboutPage = () => {
         <SkillsSection skill={"Web Design"} progress={80} width={"80%"} />
         <SkillsSection skill={"UI/UX Design"} progress={30} width={"30%"} />
       </div>
+      <Title title={"Services"} span={"Services"} />
       <div className="services-container">
-        <Title title={"Services"} span={"Services"} />
         <ServicesSection
           image={design}
           title={"Web Design"}
