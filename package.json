@@ -1,7 +1,7 @@
 {
   "name": "graysons-react-portfolio",
   "version": "0.1.0",
-  "homepage": "https://g-strick.github.io/react-portfolio/",
+  "homepage": "https://g-strick.github.io/react-portfolio",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.34",
@@ -24,7 +24,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {

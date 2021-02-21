@@ -11,7 +11,7 @@ const NavBar = () => {
         </div>
         <ul className="nav-items">
           <li className="nav-item">
-            <NavLink to="/" exact activeClassName="active">
+            <NavLink to="/react-portfolio" exact activeClassName="active">
               Home
             </NavLink>
           </li>
