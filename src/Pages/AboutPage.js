@@ -1,18 +1,18 @@
 import React from "react";
 import Title from "../Components/Title";
 import ImageSection from "../Components/ImageSection";
-import SkillsSection from "../Components/SkillsSection";
-import ServicesSection from "../Components/Services";
-import design from "../img/design.svg";
-import intelligence from "../img/intelligence.svg";
-import gamedev from "../img/game-dev.svg";
+// import SkillsSection from "../Components/SkillsSection";
+// import ServicesSection from "../Components/Services";
+// import design from "../img/design.svg";
+// import intelligence from "../img/intelligence.svg";
+// import gamedev from "../img/game-dev.svg";
 
 const AboutPage = () => {
   return (
     <div className="AboutPage">
       <Title title={"About Me"} span={"About Me"} />
       <ImageSection />
-      <Title title={"My Skills"} span={"My Skills"} />
+      {/* <Title title={"My Skills"} span={"My Skills"} />
       <div className="skillsContainer">
         <SkillsSection skill={"Javascript"} progress={80} width={"80%"} />
         <SkillsSection skill={"React"} progress={70} width={"70%"} />
@@ -21,8 +21,8 @@ const AboutPage = () => {
         <SkillsSection skill={"Javascript"} progress={70} width={"70%"} />
         <SkillsSection skill={"Web Design"} progress={80} width={"80%"} />
         <SkillsSection skill={"UI/UX Design"} progress={30} width={"30%"} />
-      </div>
-      <Title title={"Services"} span={"Services"} />
+      </div> */}
+      {/* <Title title={"Services"} span={"Services"} />
       <div className="services-container">
         <ServicesSection
           image={design}
@@ -45,7 +45,7 @@ const AboutPage = () => {
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate facere, numquam vitae placeat consequatur corrupti officia quibusdam. "
           }
         />
-      </div>
+      </div> */}
     </div>
   );
 };

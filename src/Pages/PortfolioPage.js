@@ -27,7 +27,7 @@ function PortfoliosPage() {
 
   return (
     <div className="PortfolioPage">
-      <Title title={"Portfolios"} span={"portfolios"} />
+      <Title title={"Portfolio"} span={"Portfolio"} />
 
       <div className="portfolios-data">
         <Categories filter={filter} categories={categories} />

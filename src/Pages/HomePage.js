@@ -16,12 +16,7 @@ function HomePage() {
           Hi, I am
           <span> Grayson Stricker</span>
         </h1>
-        <p className="h-sub-text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
-          facere, numquam vitae placeat consequatur corrupti officia quibusdam.
-          Blanditiis doloremque nemo ex facilis neque. A sint ipsam earum nemo
-          omnis et.
-        </p>
+        <p className="h-sub-text">This is my react portfolio website.</p>
         <div className="icons">
           <Link to="test" className="icon-holder">
             <FontAwesomeIcon icon={faLinkedin} className="icon li" />

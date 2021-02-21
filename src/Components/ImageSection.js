@@ -10,11 +10,7 @@ const ImageSection = () => {
         <h4>
           My name is <span>Grayson</span>
         </h4>
-        <p className="about-text">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt ipsa
-          ad quibusdam porro, quas dolor necessitatibus ut doloribus, possimus
-          soluta culpa officia quam nostrum reprehenderit?
-        </p>
+        <p className="about-text">I am a full stack web developer.</p>
         <div className="about-details">
           <div className="left-section">
             <p>Full Name</p>
