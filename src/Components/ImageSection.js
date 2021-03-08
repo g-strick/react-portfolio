@@ -26,7 +26,7 @@ const ImageSection = () => {
             <p>: American</p>
             <p>: English, Elementary Japanese</p>
             <p>: Charlotte, NC</p>
-            <p>: Hiking, Snowboarding and eating Tacos</p>
+            <p>: Hiking, Snowboarding, Coding</p>
           </div>
         </div>
         <button className="btn">Download CV</button>

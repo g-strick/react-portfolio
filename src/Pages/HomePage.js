@@ -2,11 +2,9 @@ import React from "react";
 import {
   faGithub,
   faLinkedin,
-  faYoutube,
   faHackerrank
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { Link } from "react-router-dom";
 
 function HomePage() {
   return (
@@ -18,18 +16,35 @@ function HomePage() {
         </h1>
         <p className="h-sub-text">This is my react portfolio website.</p>
         <div className="icons">
-          <Link to="test" className="icon-holder">
+          <a
+            href="https://www.linkedin.com/in/grayson-stricker-399879b4/"
+            className="icon-holder"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
             <FontAwesomeIcon icon={faLinkedin} className="icon li" />
-          </Link>
-          <Link to="test" className="icon-holder">
-            <FontAwesomeIcon icon={faGithub} className="icon gh" />
-          </Link>
-          <Link to="test" className="icon-holder">
-            <FontAwesomeIcon icon={faYoutube} className="icon yt" />
-          </Link>
-          <Link to="test" className="icon-holder">
+          </a>
+          <a
+            href="https://github.com/g-strick"
+            className="icon-holder"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <FontAwesomeIcon
+              icon={faGithub}
+              className="icon gh"
+              target="_blank"
+              rel="noreferrer noopener"
+            />
+          </a>
+          <a
+            href="https://www.hackerrank.com/graysonstricker"
+            className="icon-holder"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
             <FontAwesomeIcon icon={faHackerrank} className="icon hr" />
-          </Link>
+          </a>
         </div>
       </header>
     </div>
