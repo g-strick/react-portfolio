@@ -1,81 +1,58 @@
-import port1 from "../img/portImages/maya-1.jpg";
-import port2 from "../img/portImages/port1.jpg";
-import port3 from "../img/portImages/port2.jpg";
-import port4 from "../img/portImages/port3.jpg";
-import port6 from "../img/portImages/port5.jpg";
-import port7 from "../img/portImages/port6.jpg";
+import pomoDuck from "../img/portImages/pomoDuck.png";
+import lookingRuff from "../img/portImages/lookingRuff2.png";
+import birdBikeMap2 from "../img/portImages/birdBikeMap2.jpg";
 
 const portfolios = [
   {
     id: 1,
-    category: "Animation",
-    link1: "www.youtube.com",
-    link2: "www.github.com",
-    icon1: "G",
-    icon2: "Y",
-    image: port1,
-    title: "Autodesk Maya"
+    category: "React JS",
+    link1: "https://pomoduck.com/",
+    link2: "https://github.com/TomatoPals/PomoDuck",
+    icon1: "Repo",
+    icon2: "Deployed",
+    image: pomoDuck,
+    title: "Pomoduck"
   },
   {
     id: 2,
-    category: "Python",
+    category: "jQuery",
     link1: "www.youtube.com",
     link2: "www.github.com",
-    icon1: "G",
-    icon2: "Y",
-    image: port2,
-    title: "Python Web Scrapping"
+    icon1: "Repo",
+    icon2: "Deployed",
+    image: lookingRuff,
+    title: "Lookin Ruff Pet Grooming"
   },
   {
     id: 3,
-    category: "Animation",
+    category: "React JS",
     link1: "www.youtube.com",
     link2: "www.github.com",
-    icon1: "G",
-    icon2: "Y",
-    image: port3,
-    title: "Autodesk Maya"
-  },
-  {
-    id: 4,
-    category: "Javascript",
-    link1: "www.youtube.com",
-    link2: "www.github.com",
-    icon1: "G",
-    icon2: "Y",
-    image: port4,
-    title: "Vanilla Javascript Website"
-  },
-  {
-    id: 5,
-    category: "React Js",
-    link1: "www.youtube.com",
-    link2: "www.github.com",
-    icon1: "G",
-    icon2: "Y",
-    image: port6,
-    title: "Getting Started With React"
-  },
-  {
-    id: 6,
-    category: "React Js",
-    link1: "www.youtube.com",
-    link2: "www.github.com",
-    icon1: "G",
-    icon2: "Y",
-    image: port7,
-    title: "Vanilla Javascript Website"
-  },
-  {
-    id: 7,
-    category: "Test Port",
-    link1: "www.youtube.com",
-    link2: "www.github.com",
-    icon1: "G",
-    icon2: "Y",
-    image: port4,
-    title: "Vanilla Javascript Website"
+    icon1: "Repo",
+    icon2: "Deployed",
+    image: birdBikeMap2,
+    title: "Outdoor Adventure Planner"
   }
+  // {
+  //   id: 4,
+  //   category: "Javascript",
+  //   link1: "www.youtube.com",
+  //   link2: "www.github.com",
+  //   icon1: "G",
+  //   icon2: "Y",
+  //   image: port4,
+  //   title: "Vanilla Javascript Website"
+  // },
+  // {
+  //   id: 5,
+  //   category: "React Js",
+  //   link1: "www.youtube.com",
+  //   link2: "www.github.com",
+  //   icon1: "G",
+  //   icon2: "Y",
+  //   image: port6,
+  //   title: "Getting Started With React"
+  // }
 ];
 
 export default portfolios;
