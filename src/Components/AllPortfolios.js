@@ -16,8 +16,8 @@ const portfolios = [
   {
     id: 2,
     category: "jQuery",
-    link1: "www.youtube.com",
-    link2: "www.github.com",
+    link1: "https://lookin-ruff.herokuapp.com",
+    link2: "https://github.com/TomatoPals/Lookin-Ruff",
     icon1: "Repo",
     icon2: "Deployed",
     image: lookingRuff,
@@ -25,9 +25,11 @@ const portfolios = [
   },
   {
     id: 3,
-    category: "React JS",
-    link1: "www.youtube.com",
-    link2: "www.github.com",
+    category: "Javascript",
+    link1:
+      "https://bartcusick.github.io/bootCamp_Project_1-_Outdoor-Adventure-Planner",
+    link2:
+      "https://github.com/bartcusick/bootCamp_Project_1-_Outdoor-Adventure-Planner",
     icon1: "Repo",
     icon2: "Deployed",
     image: birdBikeMap2,
