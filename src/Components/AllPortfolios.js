@@ -1,6 +1,7 @@
 import pomoDuck from "../img/portImages/pomoDuck.png";
 import lookingRuff from "../img/portImages/lookingRuff2.png";
 import birdBikeMap2 from "../img/portImages/birdBikeMap2.jpg";
+import burgertime from "../img/portImages/burgertime.png";
 
 const portfolios = [
   {
@@ -34,17 +35,17 @@ const portfolios = [
     icon2: "Deployed",
     image: birdBikeMap2,
     title: "Outdoor Adventure Planner"
+  },
+  {
+    id: 4,
+    category: "Node.js",
+    link1: "https://its-burger-time2020.herokuapp.com/",
+    link2: "https://github.com/g-strick/its-burger-time",
+    icon1: "Repo",
+    icon2: "deployed",
+    image: burgertime,
+    title: "Burger Time"
   }
-  // {
-  //   id: 4,
-  //   category: "Javascript",
-  //   link1: "www.youtube.com",
-  //   link2: "www.github.com",
-  //   icon1: "G",
-  //   icon2: "Y",
-  //   image: port4,
-  //   title: "Vanilla Javascript Website"
-  // },
   // {
   //   id: 5,
   //   category: "React Js",

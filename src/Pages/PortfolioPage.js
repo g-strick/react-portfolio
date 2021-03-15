@@ -28,7 +28,6 @@ function PortfoliosPage() {
   return (
     <div className="PortfolioPage">
       <Title title={"Portfolio"} span={"Portfolio"} />
-
       <div className="portfolios-data">
         <Categories filter={filter} categories={categories} />
         <MenuItems menuItem={menuItems} />
