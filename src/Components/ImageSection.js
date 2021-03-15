@@ -29,7 +29,15 @@ const ImageSection = () => {
             <p>: Hiking, Snowboarding, Coding</p>
           </div>
         </div>
-        <button className="btn">Download CV</button>
+        <button className="btn">
+          <a
+            href="https://drive.google.com/file/d/1Uz3r8BIeokkT3FhfBKjjrn-M2LisliH5/view"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            Download CV
+          </a>
+        </button>
       </div>
     </div>
   );
