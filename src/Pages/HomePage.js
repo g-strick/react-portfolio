@@ -1,7 +1,7 @@
 import React from "react";
 import {
   faGithub,
-  faLinkedin,
+  faLinkedinIn,
   faHackerrank
 } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -17,25 +17,20 @@ function HomePage() {
         <p className="h-sub-text">This is my react portfolio website.</p>
         <div className="icons">
           <a
-            href="https://www.linkedin.com/in/grayson-stricker-399879b4/"
-            className="icon-holder"
-            target="_blank"
-            rel="noreferrer noopener"
-          >
-            <FontAwesomeIcon icon={faLinkedin} className="icon li" />
-          </a>
-          <a
             href="https://github.com/g-strick"
             className="icon-holder"
             target="_blank"
             rel="noreferrer noopener"
           >
-            <FontAwesomeIcon
-              icon={faGithub}
-              className="icon gh"
-              target="_blank"
-              rel="noreferrer noopener"
-            />
+            <FontAwesomeIcon icon={faGithub} className="icon gh" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/grayson-stricker-399879b4/"
+            className="icon-holder"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <FontAwesomeIcon icon={faLinkedinIn} className="icon li" />
           </a>
           <a
             href="https://www.hackerrank.com/graysonstricker"
