@@ -1,5 +1,5 @@
 import React from "react";
-import avatar from "../img/avatar.jpg";
+import profile2 from "../img/profile2.jpg";
 import { NavLink } from "react-router-dom";
 
 const NavBar = () => {
@@ -7,7 +7,7 @@ const NavBar = () => {
     <div className="NavBar">
       <nav className="nav">
         <div className="profile">
-          <img src={avatar} alt="avatar" />
+          <img src={profile2} alt="avatar" />
         </div>
         <ul className="nav-items">
           <li className="nav-item">
