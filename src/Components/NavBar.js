@@ -15,11 +15,11 @@ const NavBar = () => {
               Home
             </NavLink>
           </li>
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <NavLink to="/about" exact activeClassName="active">
               About
             </NavLink>
-          </li>
+          </li> */}
           <li className="nav-item">
             <NavLink to="/portfolios" exact activeClassName="active">
               Portfolio
