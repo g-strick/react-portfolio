@@ -7,7 +7,7 @@ import Title from "../Components/Title";
 function ContactPage() {
   return (
     <>
-      <Title title={"About Me"} span={"About Me"} className="title" />
+      <Title title={"Contact"} span={"Contact"} className="title" />
       <div className="ContactPage">
         <div className="map-sect">
           <iframe
