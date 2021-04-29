@@ -33,7 +33,7 @@ const ImageSection = () => {
  
         <div className="icons">
           <a
-            href="https://github.com/g-strick"
+            href="https://reactjs.org/"
             className="icon-holder"
             target="_blank"
             rel="noreferrer noopener"
@@ -41,7 +41,7 @@ const ImageSection = () => {
             <FontAwesomeIcon icon={faReact} className="icon gh" />
           </a>
           <a
-            href="https://www.linkedin.com/in/grayson-stricker-399879b4/"
+            href="https://nodejs.org/en/"
             className="icon-holder"
             target="_blank"
             rel="noreferrer noopener"
@@ -49,7 +49,7 @@ const ImageSection = () => {
             <FontAwesomeIcon icon={faNodeJs} className="icon li" />
           </a>
           <a
-            href="https://www.hackerrank.com/graysonstricker"
+            href="https://html.com/html5/"
             className="icon-holder"
             target="_blank"
             rel="noreferrer noopener"
@@ -65,7 +65,7 @@ const ImageSection = () => {
             <FontAwesomeIcon icon={faCss3} className="icon gh" />
           </a>
           <a
-            href="https://www.linkedin.com/in/grayson-stricker-399879b4/"
+            href="https://www.w3.org/TR/CSS/#css"
             className="icon-holder"
             target="_blank"
             rel="noreferrer noopener"
@@ -73,7 +73,7 @@ const ImageSection = () => {
             <FontAwesomeIcon icon={faSass} className="icon li" />
           </a>
           <a
-            href="https://www.hackerrank.com/graysonstricker"
+            href="https://sass-lang.com/"
             className="icon-holder"
             target="_blank"
             rel="noreferrer noopener"
