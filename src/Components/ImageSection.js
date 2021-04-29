@@ -1,5 +1,16 @@
 import React from "react";
 import about from "../img/about-mbpro.jpg";
+import {
+  faNodeJs,
+  faReact,
+  faCss3,
+  faSass,
+  faHtml5,
+  faAws
+
+} from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 const ImageSection = () => {
   return (
     <div className="imageSection">
@@ -10,34 +21,66 @@ const ImageSection = () => {
         <h4>
           My name is <span>Grayson</span>
         </h4>
-        <p className="about-text">I am a full stack web developer.</p>
-        <div className="about-details">
-          <div className="left-section">
-            <p>Full Name</p>
-            <p>Age</p>
-            <p>Nationality</p>
-            <p>Languages</p>
-            <p>Location</p>
-            <p>Hobbies</p>
-          </div>
-          <div className="right-section">
-            <p>: Grayson Stricker</p>
-            <p>: 28</p>
-            <p>: American</p>
-            <p>: English, Elementary Japanese</p>
-            <p>: Charlotte, NC</p>
-            <p>: Hiking, Snowboarding, Coding</p>
-          </div>
-        </div>
-        <button className="btn">
+        <p className="about-text">
+          Fullstack web developer with a passion for people and getting things
+          done. Effectively build more intuitive user experiences on the web by
+          leveraging an extensive sales background, with an interest for
+          computers. Recently earned a certificate in full-stack web development
+          from UNC Chapel Hill. Seeking an opportunity that will utilize this
+          skill set, while expanding it, to incorporate new technologies, skills
+          and techniques.
+        </p>
+ 
+        <div className="icons">
           <a
-            href="https://drive.google.com/file/d/1Uz3r8BIeokkT3FhfBKjjrn-M2LisliH5/view"
+            href="https://github.com/g-strick"
+            className="icon-holder"
             target="_blank"
             rel="noreferrer noopener"
           >
-            Download CV
+            <FontAwesomeIcon icon={faReact} className="icon gh" />
           </a>
-        </button>
+          <a
+            href="https://www.linkedin.com/in/grayson-stricker-399879b4/"
+            className="icon-holder"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <FontAwesomeIcon icon={faNodeJs} className="icon li" />
+          </a>
+          <a
+            href="https://www.hackerrank.com/graysonstricker"
+            className="icon-holder"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <FontAwesomeIcon icon={faHtml5} className="icon hr" />
+          </a>
+          <a
+            href="https://github.com/g-strick"
+            className="icon-holder"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <FontAwesomeIcon icon={faCss3} className="icon gh" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/grayson-stricker-399879b4/"
+            className="icon-holder"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <FontAwesomeIcon icon={faSass} className="icon li" />
+          </a>
+          <a
+            href="https://www.hackerrank.com/graysonstricker"
+            className="icon-holder"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <FontAwesomeIcon icon={faAws} className="icon hr" />
+          </a>
+        </div>
       </div>
     </div>
   );
