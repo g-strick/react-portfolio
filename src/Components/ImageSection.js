@@ -57,7 +57,7 @@ const ImageSection = () => {
             <FontAwesomeIcon icon={faHtml5} className="icon hr" />
           </a>
           <a
-            href="https://github.com/g-strick"
+            href="https://www.w3.org/TR/CSS/#css"
             className="icon-holder"
             target="_blank"
             rel="noreferrer noopener"
@@ -65,7 +65,7 @@ const ImageSection = () => {
             <FontAwesomeIcon icon={faCss3} className="icon gh" />
           </a>
           <a
-            href="https://www.w3.org/TR/CSS/#css"
+            href="https://sass-lang.com/"
             className="icon-holder"
             target="_blank"
             rel="noreferrer noopener"
@@ -73,7 +73,7 @@ const ImageSection = () => {
             <FontAwesomeIcon icon={faSass} className="icon li" />
           </a>
           <a
-            href="https://sass-lang.com/"
+            href="https://aws.amazon.com/"
             className="icon-holder"
             target="_blank"
             rel="noreferrer noopener"
