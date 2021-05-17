@@ -16,8 +16,8 @@ function HomePage() {
         </h1>
         <p className="h-sub-text">
           Fullstack web developer with a passion for people and getting things
-          done. Effectively build more intuitive user experiences on the web by
-          leveraging an extensive sales background, with an interest for
+          done. Interested in building more intuitive user experiences on the web by
+          leveraging an extensive sales background, with a knack for
           computers. Recently earned a certificate in full-stack web development
           from UNC Chapel Hill. Seeking an opportunity that will utilize this
           skill set, while expanding it, to incorporate new technologies, skills
